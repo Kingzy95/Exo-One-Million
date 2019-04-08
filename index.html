@@ -13,6 +13,8 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 
     <!-- Custom styles for this template -->
@@ -21,22 +23,15 @@
 
   <body>
 
-    <nav class="top-bar">
+    <nav>
         <!-- Start logo -->
-        <div class="title-area">
-                <a href="#" class="logo">
-                    <img src="images/top-logo.png">
-                </a>
+        <div class="nav">
+        <div class="nav-header">
+          <a href="#home"><img src="images/top-logo.png"></a>
         </div>
         <!-- End logo -->
 
         <!-- Start Navigation Menu -->
-        <section class="top-bar-section">
-            <ul class="right">
-                <li><a href="#">Who we are</a></li>
-                <li><a href="#">Get involved</a></li>
-            </ul>
-        </section>
         <div class="nav-btn">
           <label for="nav-check">
             <span></span>
@@ -44,6 +39,12 @@
             <span></span>
           </label>
         </div>
+        <input type="checkbox" id="nav-check">
+        <div class="nav-links">
+          <a href="#who">who we are</a>
+          <a href="#get-involved">get involved</a>
+        </div>
+      </div>
     </nav>
     <!-- End Navigation Menu -->
 
@@ -90,16 +91,37 @@
 
     <!-- Start Get-involved -->
     <div id="get-involved">
-        <div class="service">
             <div class="service-title">
                 <p>GET INVOLVED</p>
                 <hr>
             </div>
-        <div class="col1">
-
-                <i class="fa fa-user-circle"></i>
+            <div id="container">
+            <div class="student">
+              <i class="fas fa-user fa-stack fa-inverse fa-3x"></i>
+                <h3>STUDENTS</h3>
+                <p>Want to learn how to code? Want to help us get to 1,000,000 lines?
+                  Click the button below and we'll let you know how to get involved.
+              </p>
+              <center><a href="#" class="start">Start Learning >></a></center>
             </div>
-        </div>
+            <div class="educators">
+              <i class="fas fa-pencil-alt fa-stack fa-inverse fa-3x"></i>
+                <h3>EDUCATORS</h3>
+                <p>Want to bring this initiative to your school
+                  or institution? Awesome! Click the button below and we'll make it happen.
+                </p>
+                <center><a href="#" class="start">Join the Initiative >></a></center>
+            </div>
+            <div class="sponsors">
+              <i class="far fa-money-bill-alt fa-stack fa-inverse fa-3x"></i>
+              <h3>SPONSORS</h3>
+                <p>We love all the support we get to help host more events,
+                  and empower more lives with the knowledge of coding. Click to get involved.
+                </p>
+                <center><a href="#" class="start">Give Support >></a></center>
+            </div>
+          </div>
+
         </div>
     <!-- End Get-involved -->
 
