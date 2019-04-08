@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: 'Arvo';
 }
 
 
@@ -17,6 +18,7 @@ html, body{
     position: relative;
     text-transform: uppercase;
     position: fixed;
+    font-family: 'Arvo';
 }
 
 .nav > .nav-header > a > img {
