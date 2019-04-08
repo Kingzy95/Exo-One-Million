@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+/* Header */
+nav {
+    display: flex;
+    height: 50px;
+    background: #333;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.logo img {
+    text-decoration: none;
+    padding-left: 100px;
+    padding-top: 13px;
+}
+
+nav .top-bar-section ul {
+    display: flex;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 14px;
+    
+}
+
+nav .top-bar-section ul li a {
+    color: darkgray;
+    font-family: 'Arvo';
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    letter-spacing: .5px;
+    text-decoration: none;
+}
+
+nav .top-bar-section > ul > li:last-child {
+    margin-right: 100px;
+}
+
+nav .top-bar-section > ul > li a:hover {
+ color: white;
+}
+
+.nav-btn span {
+    background: grey;
+    width: 40px;
+    height: 5px;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+@media all and (max-width: 820px){
+    .logo img {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-left: 9px;
+        padding-top: 13px;
+    }
+    .top-bar-section > ul{
+        
+    }
+    .nav > .nav-btn span{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label > {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+
+  .nav > .nav-btn span> label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+}
+
+
+
+
+
+/* Home */
+#home {
+    margin: 0;
+    width: 100%;
+}
+
+#home .hero {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/hero-image.jpg);
+}
+
+#home .text1 {
+    color: #f1f1f1;
+    font-family: 'Arvo';
+    text-align: center;
+    font-size: 80px;
+}
+
+#home .text1 > p {
+    margin-top: 0;
+    padding-top: 75px;
+    
+}
+
+#home .text2 {
+    color: #f1f1f1;
+    font-family: 'Arvo';
+    text-align: center;
+    font-size: 19px;
+}
+
+#home .btn {
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Arvo' sans-serif;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#home .learn-more {
+    background-color: #ff4D4D;
+}
+#home .learn-more h1 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+#home .learn-more:hover {
+    background: #da190a;
+}
+
+#home .img-hero {
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px
+}
+@media all and (max-width: 280px){
+    .hero {
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+    }
+    .text1 {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
+
+
+/* Who */
+#who {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#who .caption {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#who .caption-img {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#who .caption-img p {
+    color: #da190a;
+    font-family: 'Arvo';
+    font-size: 20px;
+    margin: 9px 0;
+}
+
+hr {
+    width: 5%;
+    color: #ff4D4D;
+}
+
+#who .caption-text {
+    text-align: center;
+    font-family: 'Arvo';
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#who .caption-text span {
+    color: #da190a;
+}
+
+
+
+
+
+/* get-involved */
+#get-involved {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5; 
+    font-family: 'Arvo';
+}
+
+.service-title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.service-title p {
+    margin: 0 auto;
+    font-size: 20px;
+    color: #da190a;
+}
+
+
+
+
+
+/* Footer */
+footer {
+    display: flex;
+    margin: 0 auto;
+    padding: 130px 80px 30px 100px;
+    background-color: #da190a;
+}
+
+footer > img {
+    display: flex;
+    align-items: flex-end;
+    height: 35px;
+}
+    
+
+
+
+
+
+
+
